@@ -41,8 +41,8 @@ export type ShowcaseResource = {
       resources: [
         {
           title: "Payroll User Guide",
-          href: "/documents/Petpooja-Payroll-V.03.1.docx",
-          type: "docx",
+          href: "/showcase/payroll-hrms",
+          type: "website",
         },
       ],
     },

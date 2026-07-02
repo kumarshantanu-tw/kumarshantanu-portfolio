@@ -21,12 +21,17 @@ export type DocumentationHero = {
     items: DocumentationOverviewItem[];
   };
   
+  export type DocumentationStructureItem = {
+    title: string;
+    description: string;
+  };
+
   export type DocumentationGalleryItem = {
     id: number;
     title: string;
     description: string;
     image: string;
-    featured: boolean;
+    featured?: boolean;
   };
   
   export type DocumentationResource = {
@@ -57,7 +62,9 @@ export type DocumentationHero = {
     metrics: DocumentationMetric[];
   
     overview: DocumentationOverview;
-  
+
+    structure: DocumentationStructureItem[];
+    
     technologies: string[];
   
     highlights: string[];

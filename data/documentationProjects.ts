@@ -17,7 +17,7 @@ export const documentationProjects: DocumentationProject[] = [
       description:
         "Developed a comprehensive Payroll HRMS user guide covering employee management, payroll processing, attendance, leave management, reports, and HR workflows.",
 
-      coverImage: "/images/payroll/payroll-cover.png",
+      coverImage: "/images/payroll/cover.png",
     },
 
     metrics: [
@@ -68,6 +68,49 @@ export const documentationProjects: DocumentationProject[] = [
       ],
     },
 
+    structure: [
+      {
+        title: "Dashboard",
+        description:
+          "Overview of employee activities, attendance, payroll status, and important HR metrics.",
+      },
+      {
+        title: "Employee Management",
+        description:
+          "Manage employee profiles, departments, designations, branches, employment details, and salary information.",
+      },
+      {
+        title: "Attendance Management",
+        description:
+          "Track attendance, configure attendance policies, and manage daily attendance workflows.",
+      },
+      {
+        title: "Shift Management",
+        description:
+          "Create shifts, assign employees, configure shift rules, manage open shifts, and maintain rosters.",
+      },
+      {
+        title: "Leave & Holidays",
+        description:
+          "Configure leave policies, holiday calendars, leave allocation, carry forward, and approvals.",
+      },
+      {
+        title: "Payroll Processing",
+        description:
+          "Generate payroll, configure salary structures, deductions, earnings, and payroll calculations.",
+      },
+      {
+        title: "Approval Requests",
+        description:
+          "Review and approve attendance, leave requests, shift changes, and other employee requests.",
+      },
+      {
+        title: "Reports & Analytics",
+        description:
+          "Generate payroll, attendance, HR, and operational reports for business insights.",
+      },
+    ],
+
     technologies: [
       "DITA XML",
       "Oxygen XML",
@@ -84,7 +127,51 @@ export const documentationProjects: DocumentationProject[] = [
       "Cross-functional Collaboration",
     ],
 
-    gallery: [],
+    gallery: [
+        {
+          id: 1,
+          title: "Cover Page",
+          description:
+            "Professional Payroll HRMS User Guide cover page showcasing branding and documentation version.",
+          image: "/images/placeholders/document-preview.png",
+          featured: true,
+        },
+        {
+          id: 2,
+          title: "Dashboard",
+          description:
+            "Overview of the Payroll HRMS dashboard and navigation experience.",
+          image: "/images/placeholders/document-preview.png",
+        },
+        {
+          id: 3,
+          title: "Employee Management",
+          description:
+            "Managing employee profiles, departments, designations, and employment details.",
+          image: "/images/placeholders/document-preview.png",
+        },
+        {
+          id: 4,
+          title: "Attendance",
+          description:
+            "Attendance policies, punch records, attendance tracking, and working hours.",
+          image: "/images/placeholders/document-preview.png",
+        },
+        {
+          id: 5,
+          title: "Shift Management",
+          description:
+            "Create shifts, assign employees, and manage work schedules.",
+          image: "/images/placeholders/document-preview.png",
+        },
+        {
+          id: 6,
+          title: "Leave & Holidays",
+          description:
+            "Configure leave policies, holidays, approvals, and leave balances.",
+          image: "/images/placeholders/document-preview.png",
+        },
+      ],
 
     resources: [
       {
